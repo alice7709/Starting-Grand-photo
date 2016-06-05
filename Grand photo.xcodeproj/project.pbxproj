@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E6338BC51D012BE8007E7EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BC41D012BE8007E7EE2 /* AppDelegate.swift */; };
-		E6338BC71D012BE8007E7EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BC61D012BE8007E7EE2 /* ViewController.swift */; };
 		E6338BCA1D012BE8007E7EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6338BC81D012BE8007E7EE2 /* Main.storyboard */; };
 		E6338BCC1D012BE8007E7EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6338BCB1D012BE8007E7EE2 /* Assets.xcassets */; };
 		E6338BCF1D012BE8007E7EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6338BCD1D012BE8007E7EE2 /* LaunchScreen.storyboard */; };
 		E6338BDA1D012BE8007E7EE2 /* Grand_photoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BD91D012BE8007E7EE2 /* Grand_photoTests.swift */; };
 		E6338BE51D012BE8007E7EE2 /* Grand_photoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BE41D012BE8007E7EE2 /* Grand_photoUITests.swift */; };
 		E6D66A9B1D012FFB004CFD91 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; };
-		E6D66A9C1D012FFB004CFD91 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */; };
-		E6D66A9D1D01303D004CFD91 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; };
-		E6D66A9E1D01303D004CFD91 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E6D66A9E1D01303D004CFD91 /* PilotPlant.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +49,6 @@
 /* Begin PBXFileReference section */
 		E6338BC11D012BE8007E7EE2 /* Grand photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grand photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6338BC41D012BE8007E7EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6338BC61D012BE8007E7EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6338BC91D012BE8007E7EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6338BCB1D012BE8007E7EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6338BCE1D012BE8007E7EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,8 +59,7 @@
 		E6338BE01D012BE8007E7EE2 /* Grand photoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grand photoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6338BE41D012BE8007E7EE2 /* Grand_photoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grand_photoUITests.swift; sourceTree = "<group>"; };
 		E6338BE61D012BE8007E7EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6D66A991D012FFB004CFD91 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
-		E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		E6D66A991D012FFB004CFD91 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = "/Users/seunghyunkim/Desktop/인터페이스/Grand photo/Grand photo/PilotPlant.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D66A9B1D012FFB004CFD91 /* PilotPlant.framework in Frameworks */,
-				E6D66A9D1D01303D004CFD91 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,9 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				E6338BC41D012BE8007E7EE2 /* AppDelegate.swift */,
-				E6338BC61D012BE8007E7EE2 /* ViewController.swift */,
-				E6D66A991D012FFB004CFD91 /* PilotPlant.framework */,
-				E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */,
 				E6338BC81D012BE8007E7EE2 /* Main.storyboard */,
 				E6338BCB1D012BE8007E7EE2 /* Assets.xcassets */,
 				E6338BCD1D012BE8007E7EE2 /* LaunchScreen.storyboard */,
@@ -218,6 +207,7 @@
 				TargetAttributes = {
 					E6338BC01D012BE8007E7EE2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T4SMA5DHVS;
 					};
 					E6338BD41D012BE8007E7EE2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -281,8 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D66A9C1D012FFB004CFD91 /* UIViewController+Navigation.swift in Sources */,
-				E6338BC71D012BE8007E7EE2 /* ViewController.swift in Sources */,
 				E6338BC51D012BE8007E7EE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Grand",
@@ -436,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITCT.Grand-photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -443,6 +434,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Grand",
@@ -452,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITCT.Grand-photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
