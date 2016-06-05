@@ -14,6 +14,10 @@
 		E6338BCF1D012BE8007E7EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6338BCD1D012BE8007E7EE2 /* LaunchScreen.storyboard */; };
 		E6338BDA1D012BE8007E7EE2 /* Grand_photoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BD91D012BE8007E7EE2 /* Grand_photoTests.swift */; };
 		E6338BE51D012BE8007E7EE2 /* Grand_photoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6338BE41D012BE8007E7EE2 /* Grand_photoUITests.swift */; };
+		E6D66A9B1D012FFB004CFD91 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; };
+		E6D66A9C1D012FFB004CFD91 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */; };
+		E6D66A9D1D01303D004CFD91 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; };
+		E6D66A9E1D01303D004CFD91 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6D66A991D012FFB004CFD91 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E6D66A9F1D01303D004CFD91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6D66A9E1D01303D004CFD91 /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E6338BC11D012BE8007E7EE2 /* Grand photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grand photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6338BC41D012BE8007E7EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,8 @@
 		E6338BE01D012BE8007E7EE2 /* Grand photoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grand photoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6338BE41D012BE8007E7EE2 /* Grand_photoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grand_photoUITests.swift; sourceTree = "<group>"; };
 		E6338BE61D012BE8007E7EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D66A991D012FFB004CFD91 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D66A9B1D012FFB004CFD91 /* PilotPlant.framework in Frameworks */,
+				E6D66A9D1D01303D004CFD91 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +121,8 @@
 			children = (
 				E6338BC41D012BE8007E7EE2 /* AppDelegate.swift */,
 				E6338BC61D012BE8007E7EE2 /* ViewController.swift */,
+				E6D66A991D012FFB004CFD91 /* PilotPlant.framework */,
+				E6D66A9A1D012FFB004CFD91 /* UIViewController+Navigation.swift */,
 				E6338BC81D012BE8007E7EE2 /* Main.storyboard */,
 				E6338BCB1D012BE8007E7EE2 /* Assets.xcassets */,
 				E6338BCD1D012BE8007E7EE2 /* LaunchScreen.storyboard */,
@@ -135,6 +159,7 @@
 				E6338BBD1D012BE8007E7EE2 /* Sources */,
 				E6338BBE1D012BE8007E7EE2 /* Frameworks */,
 				E6338BBF1D012BE8007E7EE2 /* Resources */,
+				E6D66A9F1D01303D004CFD91 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D66A9C1D012FFB004CFD91 /* UIViewController+Navigation.swift in Sources */,
 				E6338BC71D012BE8007E7EE2 /* ViewController.swift in Sources */,
 				E6338BC51D012BE8007E7EE2 /* AppDelegate.swift in Sources */,
 			);
@@ -401,6 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grand",
+					photo,
+				);
 				INFOPLIST_FILE = "Grand photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITCT.Grand-photo";
@@ -412,6 +443,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grand",
+					photo,
+				);
 				INFOPLIST_FILE = "Grand photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITCT.Grand-photo";
@@ -484,6 +520,7 @@
 				E6338BEB1D012BE8007E7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6338BEC1D012BE8007E7EE2 /* Build configuration list for PBXNativeTarget "Grand photoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +529,7 @@
 				E6338BEE1D012BE8007E7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6338BEF1D012BE8007E7EE2 /* Build configuration list for PBXNativeTarget "Grand photoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				E6338BF11D012BE8007E7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
